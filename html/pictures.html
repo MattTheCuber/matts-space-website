@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Matt's space pictures</title>
+    <link rel="shorcut icon" href="../mv-icon.png" title="Favicon"/>
+    <link rel="stylesheet" type="text/css" href="../css/pictures.css"/>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/pictures.js"></script>
+    <!--<script type="text/javascript" src="../js/varibles.js"></script>-->
+    <!--For dropdown-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+      <header>
+        <br/>
+        <a class="logo" href="../index.html"><font face="new times roman, arial, candara, modern" color="black"><img class="logo" src="../mv.png"/></font></a>
+        <br/>
+        <div class="motto">
+          <font id="motto" color="#23c5f6">
+            The universe of knowledge.
+          </font>
+        </div>
+        <br/>
+        Caution, some of these pictures are artist's conception and are not real pictures taken by machines.
+        <br/><br/>
+        <div class="dropdown1">
+          <button class="btn dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Spacecrafts
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a class="anc" onclick="newPage(ast)"><abbr title="Athena Space Telescope">AST</abbr> </a></li>
+            <li><a class="anc" onclick="newPage(hst)"><abbr title="Hubble Sapce Telescope">HST</abbr> </a></li>
+            <li><a class="anc" onclick="newPage(jwst)"><abbr title="International Space Station">ISS</abbr> </a></li>
+            <li><a class="anc" onclick="newPage(jwst)"><abbr title="James Web Space Telescope">JWST</abbr> </a></li>
+            <li><a class="anc" onclick="newPage(hst)"><abbr title="Elisa Space Telescope">EST</abbr> </a></li>
+            <li><a class="anc" onclick="newPage(ldsd)"><abbr title="Low Density Supersonic Decelerator">LDSD</abbr> </a></li>
+          </ul>
+        </div>
+        <div class="dropdown2">
+          <button class="btn dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Solar System
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a class="anc" onclick="newPage(planet)">Planets</a></li>
+            <li><a class="anc" onclick="newPage(comet)">Comets</a></li>
+            <li><a class="anc" onclick="newPage(moon)">Moons</a></li>
+          </ul>
+        </div>
+        <div class="dropdown3">
+          <button class="btn dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Space Objects
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a class="anc" onclick="newPage(galaxy)">Glaxies</a></li>
+            <li><a class="anc" onclick="newPage(bH)">Black Holes</a></li>
+            <li><a class="anc" onclick="newPage(gR)">Gamma Rays</a></li>
+            <li><a class="anc" onclick="newPage(mC)">Megellanic Cloud</a></li>
+            <li><a class="anc" onclick="newPage(nebula)">Nebulas</a></li>
+            <li><a class="anc" onclick="newPage(star)">Stars</a></li>
+            <li><a class="anc" onclick="newPage(supernova)">Supernovas</a></li>
+          </ul>
+        </div>
+        <div class="dropdown4">
+          <button class="btn dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Man Made
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a class="anc" onclick="newPage(astronaut)">Astranots</a></li>
+            <li><a class="anc" onclick="newPage(other)">Others</a></li>
+            <li><a class="anc" onclick="newPage(sM)">Space Machines</a></li>
+          </ul>
+        </div>
+        <br/><br/><br/>
+      </header>
+    <br/>
+    <table class="big">
+      <tr>
+        <td class="wor">
+          <a name="img_week"></a>
+          <u class="week">Image of the Week!</u>
+          <br/>
+          <a href="../images/pictures/hst/Hubble-2.jpg"><img class="specil_img" src="../images/pictures/hst/Hubble-2.jpg"></a>
+          <br/>
+          &#8593; Hubble Space Telescope &#8593;
+          <br/>
+          <img id="newImgs" src="" alt="">
+          <img id="newImgs" src="" alt="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a class="h-p" href="./index.html"> Home </a>&nbsp;
+          <a class="h-p" href="./Pictures.html"> My space pictures </a><br/>
+          Copyright 2015-Present by <b>Matthew</b>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

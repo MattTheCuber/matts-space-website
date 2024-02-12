@@ -1,0 +1,113 @@
+body {
+  font-family:'Comic sans MS';
+  color:black;
+  background-image:url(../Images/bgs/solar-system.jpg);
+  text-align:center;
+}
+footer {
+  font-family:'Angrybirds';
+  color:black;
+  background-color:#00228a;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
+header {
+  background-color:#580404;
+  width:75%;
+  margin-left:auto;
+  margin-right:auto;
+}
+div.btt {
+  color:white;
+  width:250px;
+  border-radius:15px;
+  border:1px solid black;
+  background-color:darkblue;
+  margin-bottom:10px;
+}
+div.btt:hover {
+  color:darkgray;
+  background-color:blue;
+}
+div.btt:active {
+  color:black;
+  background-color:lightblue;
+}
+h2 {
+  font-family:'Fun sized';
+  color:black;
+  background-color:#00228a;
+}
+img.logo {
+  float:left;
+  margin-left:-450px;
+  width:194px;
+  height:137px;
+}
+section.bod {
+  background-color:white;
+  width:85%;
+  padding-left:20px;
+  padding-right:20px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+}
+a.logo {
+  float:left;
+  padding-left:30em;
+}
+div.motto {
+  font-family:digital anarchy, impact;
+  margin-left:-150px;
+  float:left;
+  font-size:60px;
+  margin-top:25px;
+  color:#23c5f6;
+  text-decoration:none;
+}
+td.bib {
+  background-color:lightblue;
+  font-family:candara, times new roman;
+}
+b.planet {
+  font-family:Constantia, comic sans MS, arial black, arial;
+  font-size:20px;
+}
+a:hover {
+  color:yellow;
+}
+a.hom {
+  font-size:25px;
+  color:#ff0;
+}
+a:active {
+  color:orange;
+}
+a {
+  color:black;
+}
+div.home {
+  color:black;
+  width:100px;
+  font-family:arial;
+  border-radius:10px;
+  border:1px solid black;
+  background-color:#23c5f6;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+}
+a.home:hover {
+  color:#ff0;
+  background-color:#4acff7;
+}
+a.home:active {
+  color:#ff0;
+  background-color:#089cc9;
+}
+img {
+  margin-left:auto;
+  margin-right:auto;
+}

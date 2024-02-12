@@ -1,0 +1,46 @@
+a {
+  color:black;
+}
+a:active {
+  color:#889ec3;
+}
+a:hover {
+  color:#580404;
+} 
+body {
+  font-family:'times new roman, arial, modern, verdana';
+  color:black;
+  text-align:left;
+  background-color:yellow;
+  font-size:20px;
+}
+div.motto {
+  color:white;
+  text-align:center;
+  float:right;
+  margin-right:350px;
+  font-size:100px;
+  font-family:arial black, times new roman, arial;
+}
+h2.name {
+  text-align:center;
+}
+header {
+  background-image:url(../Constellations/Cluster.jpg);
+  margin-left:auto;
+  margin-right:auto;
+  width:85%;
+}
+footer {
+  font-family:angrybirds, comic sans MS, arial black, arial;
+  text-align:center;
+  background-color:#580404;
+  width:35%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.logo {
+  float:left;
+  width:194px;
+  height:137px;
+}

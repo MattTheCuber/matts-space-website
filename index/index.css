@@ -1,0 +1,502 @@
+/*header*/
+.motto {
+    font-family:digital anarchy, comic sans MS, arial;
+    color:#23c5f6 !important;
+    font-size: 26px;
+    text-shadow:0 0 25px , 0 0 5px darkblue;
+}
+@media (max-width: 992px) {
+    .motto {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .motto {
+        font-size: 24px;
+    }
+}
+.logo {
+    padding: 5px !important;
+}
+.navbar {
+    height: 80px;
+}
+.collapse {
+    background-color: #222222;
+    margin-top:10px !important
+}
+.collapse {
+    margin-top:10px !important
+}
+.navbar-nav {
+    font-size: 20px;
+}
+
+/*body*/
+.my-content {
+    margin-top: 100px;
+}
+.body {
+    background-color: maroon;
+    color: white;
+}
+.thumbnail-image {
+    border-radius: 3px;
+}
+.thumbnail-height {
+    min-height: 350px !important;
+}
+.thumbnail-verse {
+    min-height: 350px !important;
+}
+@media (max-width: 992px) {
+    .thumbnail-verse {
+        min-height: 200px !important;
+    }
+}
+@media (max-width: 769px) {
+    .thumbnail-image-map {
+        display: none !important;
+    }
+}
+
+/*footer*/
+.footer {
+    background-color: lightgray;
+}
+.media-object-logo {
+    padding: 10px;
+}
+.footer-links {
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*a {
+    text-decoration:underline; 
+    color:#000f3d;
+}
+a.add   {
+    font-family:Comic Sans MS;
+    color:#23c5f6;
+}
+a:active {
+    color:#23c5f6;
+}
+a:hover {
+    color:#FF0;
+}
+a.add:active {
+    color:orange;
+}
+a.clac {
+    cursor:pointer;
+    color:#ffffff;
+}
+a.contents {
+    color:#000;
+    font-size:17.5px;
+}
+a.down {
+    color:#23c5f6;
+}
+a.down:active {
+    color:#FFA500;
+}
+a.down:hover {
+    color:#FF0;
+}
+a#specil_pages {
+    color:#000;
+    background-color:#67d7f9;
+}
+a#specil_pages:active {
+    color:#23c5f6;
+    background-color:#67d7f9;
+}
+a#specil_pages:hover {
+    color:#FF0;
+    background-color:#67d7f9;
+}
+a.verse {
+    color:#ffffff;
+    font-size:25px;
+}
+a.verse:active {
+    color:#23c5f6;
+}
+a.verse:hover {
+    color:#FF0;
+}
+body {
+    color:#000;
+    font-family:'verdana, arial, times new roman, modern';
+    text-align:center;
+    background-image:url(../images/index/home-3.jpg);
+}
+button.btn {
+    /*vertical-align:middle;
+    -ms-touch-action:manipulation;
+    touch-action:manipulation;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    display:inline-block;
+    padding:6px 12px;
+    font-size:20px;
+    font-weight:bold;
+    line-height:1.5;
+    text-align:center;
+    border-radius:5px;
+    background-color:#23c5f6;
+    cursor:pointer;
+    border:2.5px solid #23c5f6;
+}
+button.btn:active {
+    background-color:#580404;
+}
+button.btn:hover {
+    color:#23c5f6;
+    background-color:#580404;
+}
+div.clock {
+    float:left;
+    margin-right:50px;
+    margin-left:10px;
+}
+div#copyright {
+    float:left;
+    margin-top:175px;
+    margin-left:-250px;
+}
+div.greet {
+    float:left;
+    margin-top:15px;
+    text-align:center;
+    margin-left:200px;
+}
+div.lastModified {
+    font-size:18px;
+    font-family:arial black, arial;
+}
+div.link {
+    font-family:times new roman, arial, candara, modern;
+}
+div.nojs {
+    font-size:35px;
+    color:yellow; 
+}
+div.search {
+  margin-left:750px;
+  float:left;
+  margin-top:-75px;
+  display:none;
+}
+div.time  {
+    font-family:times new roman, arial, candara, modern;
+}
+div.verse {
+    color:#000000;
+    top:0px;
+    border-radius:5px;
+    box-shadow:5px 5px 10px #23c5f6;
+    z-index:2;
+    position:sticky;
+    height:50px;
+    overflow:auto;
+    background-color:#580404;
+    border:3px solid #000;
+    width:75%;
+}
+footer {
+    color:#ffffff;
+    font-family:'Angrybirds, this night, arial black, impact';
+    background-color:#580404;
+    width:100.45%;
+    padding:5px;
+    height:350px;
+   /* margin-bottom:-50px;
+    margin-left:-10px;
+}
+h2 {
+    font-family:'Angrybirds, this night, arial black, impact';
+    color:#000;
+}
+h3 {
+    font-family:'times new roman, arial, candara, modern';
+}
+h4 {
+    font-family:comic sans MS;
+    font-weight:bold;
+    font-size:18px;
+}
+img#googlesky:hover {
+    width:300px;
+    height:100px;
+    transition-duration:1.5s;
+}
+img#hubble:hover {
+    width:642px;
+    height:106px;
+    transition-duration:1.5s;
+}
+img.footer-logo {
+    float:left;
+    margin-left:500px;
+    margin-top:10px;
+    width:194px;
+    height:137px;
+    cursor:pointer;
+}
+img#nasa:hover {
+    width:284px;
+    height:234px;
+    transition-duration:1.5s;
+}
+img#space_com:hover {
+    width:442px;
+    height:102px;
+    transition-duration:1.5s;
+}
+p.downloads {
+    color:white;
+    font-size:20px;
+    font-family:comic sans ms, arial;
+}
+p.linked_websites {
+    color:#ffffff;
+    font-size:20px;
+}
+p.star_chart {
+    color:white;
+    font-size:20px;
+    font-family:comic sans ms, arial black;
+}
+section.contents {
+    margin-top:15%;
+    float:left;
+    width:125px;
+    position:fixed;
+    border-radius:7.5px;
+    border:2.5px solid black;
+    box-shadow:5px 5px 7.5px #23c5f6;
+    background-color:hsla(194, 92%, 55%, 0.87);
+}
+span.caret {
+    display:inline-block;
+    margin-left:2px;
+    vertical-align:middle;
+    border-top:4px dashed;
+    border-right:4px solid transparent;
+    border-left:4px solid transparent;
+}
+section.content {
+    color:#000000;
+    font-family:'Angrybirds, this night, arial black, impact';
+    text-align:center;
+    background-color:#23c5f6;
+    font-size:17px;
+    padding:5px;
+    width:100.45%;
+    margin-top:-10px;
+    margin-left:-10px;
+}
+table.lin, tr.lin, td.lin {
+    border:3px solid #23c5f6;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:2.5px;
+}
+table.pages {
+    margin-right:auto;
+    margin-left:auto;
+}
+table.pic {
+    position:center;
+}
+.lin {
+    color:#000;
+}
+.pages {
+    border:3px solid #23c5f6;
+    border-radius:2.5px;
+}
+th.h-link {
+    background-color:#ADD8E6;
+    border:3px solid #23c5f6;
+    border-radius:2.5px;
+}
+
+/*
+ *
+ *
+ * Header
+ *
+ *
+ 
+header.header {
+    color:#ffffff;
+    font-family:'Angrybirds, this night, arial black, impact';
+    text-align:center;
+    background-color:#580404;
+    font-size:17px;
+    padding:5px;
+    height:200px;
+    width:100.45%;
+    margin-top:-10px;
+    margin-left:-10px;
+}
+
+div.header-left {
+    font-family:Angrybirds, this night, arial black, impact;
+    top:0px;
+    text-align:left;
+    z-index:1;
+    position:sticky;
+}
+img.logo {
+    float:left;
+    margin-left:50px;
+    margin-top:10px;
+    width:218px;
+    height:154px;
+    cursor:pointer;
+}
+
+div.header-top {
+    font-family:Angrybirds, this night, arial black, impact;
+    top:0px;
+    text-align:left;
+    z-index:1;
+    position:sticky;
+}
+div.motto {
+    font-family:digital anarchy, this night, comic sans MS, arial;
+    color:#23c5f6;
+    font-size:35px;
+    text-shadow:0 0 25px , 0 0 5px darkblue;
+    margin-left:100px;
+    margin-top:-25px;
+}
+
+div.header-bottom {
+    font-family:Angrybirds, this night, arial black, impact;
+    top:0px;
+    text-align:left;
+    z-index:1;
+    position:sticky;
+}
+
+.homeimglink { 
+
+}
+
+/*Dropdown
+.dropbtn {
+    background-color: #23c5f6;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius:5px;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #009FD0;
+}
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu1 a, .dropdown-menu2 a, .dropdown-menu3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#dropdown a:hover {
+    background-color: #f1f1f1
+}
+.show {
+    display:block;
+}
+.dropdown1 {
+    margin-left: 50px;
+}
+.dropdown2 {
+    margin-left: 50px;
+}
+.dropdown3 {
+    margin-left: 50px;
+}*/

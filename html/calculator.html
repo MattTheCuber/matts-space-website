@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Matt's | Calculator</title>
+		<script type="text/javascript" src="./Javascripts/clac.js"></script>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>
+					From: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To:
+					<br>
+					<select id="sl1">
+						<option value="au">Astronomical Unit</option>
+						<option value="mi">Mile</option>
+						<option value="km">Kilometer</option>
+						<option value="ft">Foot</option>
+						<option value="ly">Light Year</option>
+						<option value="lm">Light Minute</option>
+					</select>
+					<select id="sl2">
+						<option value="au">Astronomical Unit</option>
+						<option value="mi">Mile</option>
+						<option value="km">Kilometer</option>
+						<option value="ft">Foot</option>
+						<option value="ly">Light Year</option>
+						<option value="lm">Light Minute</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					How much? <input id="number" type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div style="float:left;"><button type="button" onclick="cal();">Convert</button>&nbsp;=&nbsp;</div>
+					<div style="float:left; padding:1px; width:250px; height:20px; border:1px solid grey;" id="answer"></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

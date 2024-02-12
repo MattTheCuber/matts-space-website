@@ -1,0 +1,35 @@
+body { text-align:center; font-family:'Calibri Light, Lucida Console, Microsoft Sans Serif, Segoe UI Symbol';
+  background-image:url(../images/pictures/galaxy/1.jpg); }
+table.big { border:groove yellow 9px; background-color:yellow; margin-left:auto; margin-right:auto; }
+td.wor { font-family:modern, arial, new times roman, candara; }
+header { background-color:yellow; width:85%; background-color:yellow; margin-left:auto; margin-right:auto; }
+footer { background-color:yellow; }
+.logo { float:left; padding-left:5px; width:194px; height:137; }
+a.anc { font-family:comic sans MS, arial; font-size:15px; color:black; cursor:pointer; }
+.bottom_row { margin-bottom:5px; font-family:comic sans MS, arial; font-size:20px; color:black; margin-left:20px; }
+.bottom_row_2 { font-family:comic sans MS, arial; font-size:20px; color:black; margin-bottom:5px; }
+.bottom_row_1 { font-family:comic sans MS, arial; font-size:20px; color:black; margin-left:250px; margin-bottom:5px; }
+a:hover { color:maroon; font-family:comic sans MS, arial, arial black; }
+a:active { color:blue; }
+a.h-p { color:black; font-family:New times roman, arial, modern, candara; }
+a.h-p:hover { color:maroon; font-family:candara, comic sans MS, arial, arial black; }
+a.h-p:active { color:blue; }
+.motto { font-family:digital anarchy, this night, comic sans MS, arial; font-size:10mm; }
+.specil_img { border:5px double #23c5f6; }
+.week { font-size:25px; color:#23c5f6; text-shadow:0 0 5px #001052; }
+.btn { color:#ffffff; display:inline-block; padding:6px 12px; font-size:14px; font-weight:bold; line-height:1.5; text-align:center;
+  vertical-align:middle; -ms-touch-action:manipulation; touch-action:manipulation; cursor:pointer; -webkit-user-select:none;
+  -moz-user-select:none; -ms-user-select:none; user-select:none; border-radius:5px; background-color:#580404; border:2.5px solid #580404; }
+.btn:hover { font-size:14px; color:#23c5f6; background-color:#ff0; border:2.5px solid #540404; }
+.btn:active { font-size:14px; color:#580404; background-color:#ff0; border:2.5px solid #580404; }
+.caret { display:inline-block; margin-left:2px; vertical-align:middle; border-top:4px dashed; border-right:4px solid transparent;
+  border-left:4px solid transparent; }
+.dropdown1 { position:relative; float:left; left:175px; }
+.dropdown2 { position:relative; float:left; left:190px; }
+.dropdown3 { position:relative; float:left; left:205px; }
+.dropdown4 { position:relative; float:left; left:220px; }
+.dropdown-menu { position:absolute; left:60%; z-index:1000; display:none; min-width:160px; padding:5px 0; margin:2px 0 0; font-size:14px;
+  text-align:left; list-style:none; background-color:#23c5f6; border:1px solid #0ab6eb; border-radius:4px; box-shadow:5px 5px 5px #23c5f6; }
+.dropdown-menu>li>a { display:block; padding:3px 20px; clear:both; font-weight:450; line-height:1.5; color:#000; }
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover { color:#000; background-color:#54d2f8; }
+.open>.dropdown-menu { display:block; }

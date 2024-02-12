@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Matt's | How's My Website</title>
+		<link rel="shorcut icon" href="../mv-icon.png" title="Favicon"/>
+		<link rel="stylesheet" href="../css/howsIt.css"/>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="./howsIt.js"></script>
+	</head>
+	<body>
+		<header>
+			<br>
+			<a class="logo" title="Home" href="../index.html"><img class="logo" src="../mv.png" alt="Logo"/></a>
+			<h1>How's My Website</h1>
+			<br>
+		</header>
+		<form name="gbForm" method="post" action="">
+			<fieldset>
+				<legend>Personal Information</legend>
+				<p>
+					<label class="question" for="the_name">What is your name?</label>
+					<input type="text" id="myName" name="the_name" placeholder="Please Type Your Whole Name." size="50" autofocus required>
+				</p>
+				<p>
+					<label class="question" for="date">Toadays Date: </label>
+					<input id="date" name="dtae" type="date" id="myDate" placeholder="5/12/15">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Questions about My website</legend>
+				<p>
+					<span class="question">Please check one:</span>
+					<br>
+					<input type="radio" id="love_it" name="some_statments[]" value="I really LOVE your Website." checked>
+					<label for="love_it">I really LOVE your Website.</label>
+					<br>
+					<input type="radio" id="like_it" name="some_statments[]" value="I like your Website.">
+					<label for="like_it">I like your Website.</label>
+					<br>
+					<input type="radio" id="not_bad" name="some_statments[]" value="Not Bad.">
+					<label for="not_bad">Not Bad.</label>
+					<br>
+					<input type="radio" id="not_good" name="some_statments[]" value="Not Good">
+					<label for="not_good">Not Good.</label>
+					<br>
+					<input type="radio" id="horrible" name="some_statments[]" value="Worst Website EVER!!!!">
+					<label for="horrible">Worst Website EVER!!!!</label>
+				</p>
+				<p>
+					<label for="scale">Please rate my Website from 1 (lowest) 10 (highest).</label>
+					<input type="number" id="scale" name="scale" min="1" max="10" value="10">
+				</p>
+				<p>
+					<span class="question">Choose what you love about my Website</span>
+					<br>
+					<input type="checkbox" id="newChecks" value="love_spacecrafts">
+					<label for="spacecrafts">The Spacecrafts.</label>
+					<br>
+					<input type="checkbox" class="newChecks" value="love_main_page">
+					<label for="main_page">The Main Page.</label>
+					<br>
+					<input type="checkbox" class="newChecks" value="love_pics_of_space">
+					<label for="pics_of_space">The Pictures of Space.</label>
+					<br>
+					<input type="checkbox" class="newChecks" value="love_every" checked>
+					<label for="every">Everthing.</label>
+					<br>
+					<input type="checkbox" class="newChecks" value="love_constellations">
+					<label for="constellations">The constellations.</label>
+					<br>
+				</p>
+				<p>
+					<label for="dont_like"><span class="question">What don't you like about this Website?</span></label>
+					<br>
+					<input type="text">
+				</p>
+				<p>
+					<label for="how_improve"><span class="question">How to Improve this Website?</span></label>
+					<br>
+					<input type="checkbox"> You can't, it can't be better.<br/>
+					<input type="checkbox"> More about Spacecrafts.<br/>
+					<input type="checkbox"> More about constellations.<br/>
+					<input type="checkbox"> More about You.<br/>
+					<input placeholder="Other" type="text">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Others</legend>
+				<p>
+					<label for="message"><span class="question">Feel free to send Questions or Comments ect.:</span></label>
+					<br>
+					<textarea id="message" name="message" rows="7" cols="55"></textarea>
+				</p>
+				<!--<p>
+					<label class="question" for="state">State you live in: </label>
+					<select>
+						<option>Alabama</option><option>Alaska</option><option>Arizona</option><option>Arkansas</option><option>California</option><option>Colorado</option><option>Connecticut</option><option>Delaware</option><option>Florida</option><option>Georgia</option><option>Hawaii</option><option>Idaho</option><option>Illinois</option><option>Indiana</option><option>Iowa</option><option>Kansas</option><option>Kentucky</option><option>Louisiana</option><option>Maine</option><option>Maryland</option><option>Massachusetts</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option><option>Missouri</option><option>Montana</option><option>Nebraska</option><option>Nevada</option><option>New Hampshire</option><option>New Jersey</option><option>New Mexico</option><option>New York</option><option>North Carolina</option><option>North Dakota</option><option>Ohio</option><option>Oklahoma</option><option>Oregon</option><option>Pennsylvania</option><option>Rhode Island</option><option>South Carolina</option><option>South Dakota</option><option>Tennessee</option><option>Texas</option><option>Utah</option><option>Vermont</option><option>Virginia</option><option>Washington</option><option>West Virginia</option><option>Wisconsin</option><option>Wyoming</option>
+					</select>
+				</p>-->
+			</fieldset>
+			<div id="buttons">
+				<input onclick='submitFunc()' value="Click Here to Submit!">
+				<input type="submit" onclick="submitFunc()" value="Click Here to Subbmit!"> or 
+				<input type="reset" value="Erase and Start Over">.
+			</div>
+		</form>
+		<div id="demo"></div>
+		<script type="text/javascript" src="../checkBox/checkbox.js"></script>
+		<br>
+		<footer>
+			<a href="../index.html">Home</a>
+			<br>
+			Copyright 2015 by <b>Matthew Vine</b>
+		</footer>
+	</body>
+</html>

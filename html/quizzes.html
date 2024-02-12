@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Matt's Quizzes</title>
+		<link rel="shorcut icon" href="../mv-icon.png" title="Favicon"/>
+		<!--<script type="text/javascript" src="./ajax.js"></script>
+		<script type="text/javascript">
+			function verify() {
+				var answers = document.getElementById("answer");
+				if (answers == ) {
+
+				}
+			}
+		</script>-->
+		<script type="text/javascript">
+			function disable_made() {
+    			document.getElementById("moon-made-cheese").disabled = true;
+    			document.getElementById("moon-made-iron").disabled = true;
+    			document.getElementById("moon-made-silver").disabled = true;
+			}
+			function disable_far() {
+    			document.getElementById("moon-far-200t").disabled = true;
+    			document.getElementById("moon-far-2m").disabled = true;
+    			document.getElementById("moon-far-400t-").disabled = true;
+			}
+			function disable_found() {
+    			document.getElementById("moon-found-cheese").disabled = true;
+    			document.getElementById("moon-found-quakes").disabled = true;
+    			document.getElementById("moon-found-ice").disabled = true;
+			}
+			function disable_eclipse() {
+    			document.getElementById("moon-eclipse-sun_moon").disabled = true;
+    			document.getElementById("moon-eclipse-earth_moon").disabled = true;
+    			document.getElementById("moon-eclipse-moon_sun").disabled = true;
+			}
+
+			function disable_big() {
+    			document.getElementById("galaxy-big-2029").disabled = true;
+    			document.getElementById("galaxy-big-1101").disabled = true;
+    			document.getElementById("galaxy-big-949").disabled = true;
+			}
+			function disable_small() {
+    			document.getElementById("galaxy-small-74").disabled = true;
+    			document.getElementById("galaxy-small-51").disabled = true;
+    			document.getElementById("galaxy-small-60").disabled = true;
+			}
+			function disable_not() {
+    			document.getElementById("galaxy-not-3454").disabled = true;
+    			document.getElementById("galaxy-not-47").disabled = true;
+    			document.getElementById("galaxy-not-35").disabled = true;
+			}
+			function disable_collide() {
+    			document.getElementById("galaxy-collide-mw").disabled = true;
+    			document.getElementById("galaxy-collide-5679").disabled = true;
+    			document.getElementById("galaxy-collide-3256").disabled = true;
+			}
+			function add() {
+				document.getElementById("moon-made-iron").undisable = true;
+			}
+		</script>
+
+		<style type="text/css">
+			body
+				{
+					color:#ffffff;
+					background-color:#23c5f6;
+					padding:0px;
+				}
+			a:hover
+				{
+					color:yellow;
+				}
+			a:active
+				{
+					color:black;
+				}
+			a
+				{
+					color:#23c5f6;
+					font-size:25px;
+				}
+			footer
+				{
+					background-color:#580404;
+					width:50%;
+					margin-right:auto;
+					margin-left:auto;
+					text-align:center;
+				}
+			.logo
+			  	{
+			    	float:left;
+			    	padding-left:50px;
+			    	padding-right:100px;
+			    	width:194px;
+			    	height:137px;
+				}
+			header
+				{
+					background-color:#580404;
+					width:75%;
+					margin-right:auto;
+					margin-left:auto;
+					font-size:25px;
+					text-align:center;
+					margin-top:0px;
+				}
+			section.body-sec
+				{
+					width:50%;
+					background-color:#580404;
+					margin-right:auto;
+					margin-left:auto;
+					padding:15px;
+				}
+			h1.h1
+				{
+					text-align:center;
+					font-size:50px;
+				}
+			h1.motto
+				{
+					font-size:60px;
+				}
+			ol
+				{
+					list-style-type:upper-alpha;-alpha;
+				}
+			.1
+				{
+					float:left;
+				}
+			.2
+				{
+					float:right;
+				}
+			img
+				{
+					margin-right:auto;
+					margin-left:auto;
+				}
+		</style>
+	</head>
+	<body>
+		<header>
+			<br>
+			<a class="logo" title="Home" href="../index.html"><img class="logo" src="../mv.png" alt="Logo"/></a>
+			<h1 class="motto">Quizzes on Astronomy</h1>
+			<a href="#moon">Moon</a> <a href="#galaxy">Galaxy</a>
+		</header>
+		<br>
+		<section class="body-sec">
+			<a name="moon"></a>
+			<h1 class="h1">Moon Quiz</h1>
+			<img src="../Images/Space-pictures/moon/Moon-1.jpg">
+			<table>
+				<tr>
+					<td>
+						<p>
+							<strong>1:</strong>What is the moon made of?
+							<br>
+							<ol>
+								<li><input id="moon-made-cheese" type="radio" name="made" onclick="alert('Wrong. The Correct Answer is: B.'); disable_made();">Cheese</li>
+								<br>
+								<li><input id="moon-made-iron" type="radio" name="made" onclick="add(); alert('Correct!'); disable_made();">Iron, rock, ect.</li>
+								<br>
+								<li><input id="moon-made-silver" type="radio" name="made" onclick="alert('Wrong. The Correct Answer is: B.'); disable_made();">Dust, gas, and silver</li>
+							</ol>
+						</p>
+					</td>
+					<td>
+						<p>
+							<strong>2:</strong>How far away is the Moon from the Earth?
+							<br>
+							<ol>
+								<li><input id="moon-far-200t" type="radio" name="far" onclick="alert('Correct!'); disable_far();">238,855 miles</li>
+								<br>
+								<li><input id="moon-far-2m" type="radio" name="far" onclick="alert('Wrong. The Correct Answer is: A.'); disable_far();">2,345,100 miles</li>
+								<br>
+								<li><input id="moon-far-400t" type="radio" name="far" onclick="alert('Wrong. The Correct Answer is: A.'); disable_far();">Around 400,000 miles</li>
+							</ol>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>
+							<strong>3:</strong>Which did the Apollo astronauts find on the moon?
+							<br>
+							<ol>
+								<li><input id="moon-found-cheese" type="radio" name="found" onclick="alert('Wrong. The Correct Answer is: B.'); disable_found();">Cheese</li>
+								<br>
+								<li><input id="moon-found-quakes" type="radio" name="found" onclick="alert('Correct!'); disable_found();">Moonquakes</li>
+								<br>
+								<li><input id="moon-found-ice" type="radio" name="found" onclick="alert('Wrong. The Correct Answer is: B.'); disable_found();">Ice</li>
+							</ol>
+						</p>
+					</td>
+					<td>
+						<p>
+							<strong>4:</strong>What makes a solar eclipse?
+							<br>
+							<ol>
+								<li><input id="moon-eclipse-sun_moon" type="radio" name="eclipse" onclick="alert('Wrong. The Correct Answer is: C.'); disable_eclipse();">The Sun going in the way of the Moon</li>
+								<br>
+								<li><input id="moon-eclipse-earth_moon" type="radio" name="eclipse" onclick="alert('Wrong. The Correct Answer is: C.'); disable_eclipse();">The Earth going in the way of the Moon</li>
+								<br>
+								<li><input id="moon-eclipse-moon_sun" type="radio" name="eclipse" onclick="alert('Correct!'); disable_eclipse();">The Moon going in the way of the Sun</li>
+							</ol>
+						</p>
+					</td>
+				</tr>
+			</table>
+			<a name="galaxy"></a>
+			<h1 class="h1">Galaxy Quiz</h1>
+			<img src="../Images/Space-pictures/galaxy/M104-2.jpg">
+			<table>
+				<tr>
+					<td>
+						<p>
+							<strong>1:</strong>What is the biggest Galaxy?
+							<br>
+							<ol>
+								<li><input id="galaxy-big-2029" type="radio" name="big" onclick="alert('Wrong. The Correct Answer is: B.'); disable_big();">Abell 2029</li>
+								<br>
+								<li><input id="galaxy-big-1101" type="radio" name="big" onclick="alert('Correct!'); disable_big();">IC 1101</li>
+								<br>
+								<li><input id="galaxy-big-949" type="radio" name="big" onclick="alert('Wrong. The Correct Answer is: B.'); disable_big();">NGC 1512</li>
+							</ol>
+						</p>
+					</td>
+					<td>
+						<p>
+							<strong>2:</strong>What is the smallest Galaxy?
+							<br>
+							<ol>
+								<li><input id="galaxy-small-74" type="radio" name="small" onclick="alert('Wrong. The Correct Answer is: C.'); disable_small();">M64</li>
+								<br>
+								<li><input id="galaxy-small-51" type="radio" name="small" onclick="alert('Wrong. The Correct Answer is: C.'); disable_small();">Messier 51</li>
+								<br>
+								<li><input id="galaxy-small-60" type="radio" name="small" onclick="alert('Correct!'); disable_small();">Segue 2</li>
+							</ol>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>
+							<strong>3:</strong>Which of these is not a Galaxy?
+							<br>
+							<ol>
+								<li><input id="galaxy-not-3454" type="radio" name="not" onclick="alert('Correct!'); disable_not();">NGCD 3454</li>
+								<br>
+								<li><input id="galaxy-not-47" type="radio" name="not" onclick="alert('Wrong. The Correct Answer is: A.'); disable_not();">M101</li>
+								<br>
+								<li><input id="galaxy-not-35" type="radio" name="not" onclick="alert('Wrong. The Correct Answer is: A.'); disable_not();">M32</li>
+							</ol>
+						</p>
+					</td>
+					<td>
+						<p>
+							<strong>4:</strong>Which of these galaxies did not collide?
+							<br>
+							<ol>
+								<li><input id="galaxy-collide-mw" type="radio" name="collide" onclick="alert('Correct!'); disable_collide();">Milky Way</li>
+								<br>
+								<li><input id="galaxy-collide-5679" type="radio" name="collide" onclick="alert('Wrong. The Correct Answer is: A.'); disable_collide();">NGC 4603</li>
+								<br>
+								<li><input id="galaxy-collide-3256" type="radio" name="collide" onclick="alert('Wrong. The Correct Answer is: A.'); disable_collide();">NGC 5584</li>
+							</ol>
+						</p>
+					</td>
+				</tr>
+			</table>
+			<!--<button type="button" onclick="verify();">Submit!</button>
+			<button id="submit">Next Question</button>
+			<script type="text/javascript" src="./quiz.js"></script>-->
+		</section>
+		<br>
+		<footer>
+			<a href="../Index.html">Home</a>
+			<br>
+			Copyright 2015 by Matthew Vine
+		</footer>
+	</body>
+</html>
